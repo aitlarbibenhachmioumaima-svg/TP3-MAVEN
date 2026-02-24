@@ -1,3 +1,28 @@
+# Diagramme de classes :
+
+![WhatsApp Image 2026-02-24 at 1 18 09 AM](https://github.com/user-attachments/assets/43d674d4-bf69-44b5-aab5-dd989c392b66)
+<br></br>
+# Analyse des Relations et des Annotations :
+<br></br>
+## Utilisateur – Reservation:
+Il existe une relation OneToMany / ManyToOne entre ces deux entités.
+Un utilisateur peut effectuer plusieurs réservations au fil du temps. En revanche, chaque réservation est associée à un seul utilisateur.
+<br></br>
+## Reservation – Salle:
+La relation entre Reservation et Salle est de type ManyToOne / OneToMany.
+Chaque réservation concerne une seule salle précise. Cependant, une même salle peut faire l’objet de plusieurs réservations à des dates différentes.
+<br></br>
+## Salle – Equipement:
+Ces deux entités sont liées par une relation ManyToMany.
+Une salle peut être équipée de plusieurs équipements . De  même, un même équipement peut être installé dans plusieurs salles.
+<br></br>
+# Exécution du projet:
+<br></br>
+<img width="1918" height="1007" alt="Capture d&#39;écran 2026-02-23 210955" src="https://github.com/user-attachments/assets/83850da9-cf3d-4683-9912-25388b054359" />
+<br></br>
+
+# Exécution la Classe App:
+<br></br>
 <img width="1919" height="1001" alt="Capture d&#39;écran 2026-02-23 115830" src="https://github.com/user-attachments/assets/e1a0edd4-7aae-4c89-ba84-11581b8d0602" />
 <img width="1027" height="749" alt="Capture d&#39;écran 2026-02-23 120005" src="https://github.com/user-attachments/assets/f8777fef-cae8-4f4a-8453-f6d40f8d7431" />
 <img width="957" height="902" alt="Capture d&#39;écran 2026-02-23 120121" src="https://github.com/user-attachments/assets/6dac2266-7b9b-4fad-a1f6-852d09426aa0" />
